@@ -11,9 +11,7 @@ setup(
     author_email='akislyuk@chanzuckerberg.com',
     description='A Python DB-API 2.0 client for the AWS Aurora Serverless Data API',
     long_description=open('README.rst').read(),
-    install_requires=[
-        'boto3 >= 1.9.245, < 2'
-    ],
+    install_requires=[],
     extras_require={
     },
     packages=find_packages(exclude=['test']),
